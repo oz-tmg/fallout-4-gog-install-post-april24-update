@@ -22,7 +22,14 @@ I mostly worked off the following guides:
    - x3audio1_7
 4. Get BethINI
 5. Choose the High BethINI preset as the guide suggests, but DISABLE GOD RAYS. They cause a visual glitch.
-6. CHANGE ambient occlusion from “HBAO+” to “SSAO” as it causes the game to be black screen. 
+6. CHANGE ambient occlusion from “HBAO+” to “SSAO” as it causes the game to be black screen.
+7. Edit Launch Parameters
+   7.1.   Open Crossover on your Mac Mini
+   7.2.   Locate the Bottle where Mod Organizer 2 is installed.
+   7.3.   Open the "Run Command" or the "Advanced Options" for that Bottle (depending on your Crossover version).
+   7.4.   Run Mod Organizer from Crossover.
+   7.5.   In Mod Organizer, Click on the Gears icon (right next to the executable selection dropdown at the top) to open Executables settings.  This is where you can edit how Mod Organizer launches applications like Skyrim, Fallout, etc.
+   7.6.   Under Executables, find F4SE, look for the "Arguments" field ("Command Line Parameters"), and enter launch parameter `-forcesteamloader`.  This enure the Mod Organizer will pass the parameter when it launches the game.  
 
 ### Game Settings: BethINI
 Change and optimize presets and more specific options:
