@@ -55,4 +55,24 @@ Change and optimize presets and more specific options:
     - Edit the other settings to your liking.
 11. Click File then Save in the top left, then confirm the prompts and close Bethini.
 
+## Mod Organizer 
 
+### Fallout 4 Script Extender (F4SE)
+Extends the scripting capabilities of the game.
+Installation instructions
+
+    Main Files - Fallout 4 Script Extender (F4SE) 0.6.23
+        Open the downloaded archive and move everything to the game's Root folder.
+
+    If you do not know what the Root folder is, read the Key Terminology.
+
+    The direct link to an older version is intentional to grant compatibility with the downgraded EXE.
+
+    Downloading through the link button above is especially important when the guide specifies the exact version, like for this mod and more later.
+        After proper install, your Root folder should look like this:
+        Root folder with a correct F4SE install
+
+Making MO2 Detect F4SE
+
+    Once F4SE is installed as instructed above, restart MO2 and you should see a new option in the top right drop-down.
+    ![image](https://github.com/user-attachments/assets/e5a1ae6c-19c6-4858-bac7-b1c3d35c85c2)
