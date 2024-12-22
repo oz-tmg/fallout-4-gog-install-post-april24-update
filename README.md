@@ -72,6 +72,25 @@ Installation instructions
         After proper install, your Root folder should look like this:
         Root folder with a correct F4SE install
 
+### xSE PluginPreloader F4
+Allows preloading F4SE plugins before the game initializes.
+Installation instructions
+
+    Main Files - xSE PluginPreloader F4 0.2.5.1
+        Open the downloaded archive and move everything to the game's Root folder.
+
+### Simple Fallout 4 Downgrader
+A simple one-click downgrader that doesn't require any login credentials.
+Installation instructions
+
+    Main Files - Simple Fallout 4 Downgrader - for v1.10.984
+        Open the downloaded archive and extract everything to the game's Root folder.
+        Double-click on fo4downgrader.exe to run it.
+        A command prompt window will open and it should say:
+        Patching successful
+        Close the command prompt and backups with _downgradeBackup appended to their name should appear in the game's Root folder.
+
+
 Making MO2 Detect F4SE
 
     Once F4SE is installed as instructed above, restart MO2 and you should see a new option in the top right drop-down.
