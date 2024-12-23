@@ -13,17 +13,23 @@ I mostly worked off the following guides:
 3. At least 52GB of free drive space, game included (45GB if you delete all the downloads).
 
 ## Setup
-1. Install the game into the Fallout 4 bottle (search it on crossover) with bottle version win10 64bit.
-2. Enable DXVK, Esync, add the x-audio libraries, mouse fix in Crossover
-3. Edit Wine Configuration by going into Libraries and add the following to the overrides:
+1. Purchase Fallout 4 GOTY version on GOG.  Steam doesn't work well with mods since the update.
+2. Download the offline files for Fallout 4.  This will take a while. 
+3. Get Crossover and install it.
+4. Create a new bottle in Crossover (Cmd + N) and name it "Fallout 4 - GOG Offline."
+5. Put the install files into a new folder ("GOG Games") in the c_drive found in the bottle.
+   - Path looks like this: `/Users/<username>/Library/Application Support/CrossOver/Bottles/Fallout 4 - GOG Offline/drive_c/GOG Games`
+6. Install the game into the Fallout 4 bottle (search it on crossover) with bottle version win10 64bit.
+7. Enable DXVK, Esync, add the x-audio libraries, mouse fix in Crossover
+8. Edit Wine Configuration by going into Libraries and add the following to the overrides:
    - xaudio2_6
    - xaudio2_7
    - x3audio1_6
    - x3audio1_7
-4. Get BethINI
-5. Choose the High BethINI preset as the guide suggests, but DISABLE GOD RAYS. They cause a visual glitch.
-6. CHANGE ambient occlusion from “HBAO+” to “SSAO” as it causes the game to be black screen.
-7. Edit Launch Parameters
+10. Get BethINI
+11. Choose the High BethINI preset as the guide suggests, but DISABLE GOD RAYS. They cause a visual glitch.
+12. CHANGE ambient occlusion from “HBAO+” to “SSAO” as it causes the game to be black screen.
+13. Edit Launch Parameters
    7.1.   Open Crossover on your Mac Mini
    7.2.   Locate the Bottle where Mod Organizer 2 is installed.
    7.3.   Open the "Run Command" or the "Advanced Options" for that Bottle (depending on your Crossover version).
