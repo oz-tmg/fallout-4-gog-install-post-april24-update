@@ -20,6 +20,7 @@ I mostly worked off the following guides:
 5. Put the install files into a new folder ("GOG Games") in the c_drive found in the bottle.
    - Path looks like this: `/Users/<username>/Library/Application Support/CrossOver/Bottles/Fallout 4 - GOG Offline/drive_c/GOG Games`
 6. Install the game into the Fallout 4 bottle (search it on crossover) with bottle version win10 64bit.
+  - 
 7. Enable DXVK, Esync, add the x-audio libraries, mouse fix in Crossover
 8. Edit Wine Configuration by going into Libraries and add the following to the overrides:
    - xaudio2_6
@@ -62,6 +63,47 @@ Change and optimize presets and more specific options:
 11. Click File then Save in the top left, then confirm the prompts and close Bethini.
 
 ## Mod Organizer 
+
+### Installing Mod Organizer 2 in some simple steps:
+- Download Mod Organizer 2 from [here](https://www.nexusmods.com/site/mods/874).
+- Once the download has finished, run the installer.
+- Accept the license, click Next.
+- When asked about the install location, change MO2 to The Midnight Ride and click Next.
+- On the install components page, use defaults.
+- When asked about the Start Menu folder, change the name to The Midnight Ride and click Next.
+- Change the name to The Midnight Ride
+- Don't create a Desktop shortcut - we will create our own later.
+- On the final page, click Install.
+- Once the installation is complete, ensure that Launch Mod Organizer is ticked and click Finish.
+
+### Setup
+1. On the install components page, use defaults.
+2. On the instance creation page, select Create a portable instance, click Next.
+3. Select Portable Instance option
+4. Select Fallout 4 and click Next.
+5. Select the store where you bought the game, click Next.
+6. When asked about profile settings, enable all options and click Next.
+7. Keep the default location file path.
+8. Click Connect to Nexus.
+
+If you have MO2 installed on an SSD or a HDD with little space, you can check the Show advanced options box and change the Downloads file path to a different drive with more space. This will not affect the game's performance, the downloaded files can be deleted after the mods have been installed.
+
+9. On the last page, select Finish.
+10. If you see a pop-up called Show tutorial?, select No.
+11. If you see a pop-up called Register?, select Yes.
+12. If you see a pop-up called INI file is read-only, select Remember my choice from the drop-down at the bottom then click Clear the read-only flag.
+
+### Configuring Settings
+1. Click the X in the bottom right of MO2 to close the log window.
+2. Click the MO2 settings button at the top of MO2 to open the settings.
+3. If you wish, you can select a different theme.
+4. In the Nexus tab, select Connect to Nexus.
+5. Connect to Nexus
+
+This option will not show up if you have already connected your Nexus account on a different MO2 instance.
+
+MO2 will open your browser and prompt you to authorize the connection.  Once you authorize it, you can close your browser and of the MO2 settings.  Allow MO2 to restart.
+
 
 ### Fallout 4 Script Extender (F4SE)
 Extends the scripting capabilities of the game.
